@@ -135,7 +135,7 @@
 .delete {
     position: fixed;
     width: 2.5rem;
-    top: 90%;
+    top: 70%;
     right: 1rem;
     z-index: 99;
 
@@ -192,7 +192,7 @@
 
 .loc {
     position: fixed;
-    top: 70%;
+    top: 65%;
     z-index: 99;
     right: 1rem;
 }

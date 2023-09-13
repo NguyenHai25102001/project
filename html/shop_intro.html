@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu shop</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="../css/start.css" rel="stylesheet" />
+    <link href="../css/my-styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="root">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row align-items-center header-title">
+                        <div class="col-12 text-center">
+                            <i class="fa-solid fa-angles-left"></i>
+                            <h5>GIỚI THIỆU SHOP</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <form method="post" action="#">
+                        <div class="row p-2">
+                            <div class="col-3 mt-4">
+                                <label for="title" class="form-label">Tiêu đề:</label>
+                            </div>
+                            <div class="col-9 mt-4">
+                                <input type="text" id="title" class="form-input">
+                            </div>
+                            <div class="col-3">
+                                <label for="short_description" class="form-label">Mô tả ngắn:</label>
+                            </div>
+                            <div class="col-9">
+                                <textarea id="short_description" class="form-input"></textarea>
+                            </div>
+                            <div class="col-3">
+                                <label for="image" class="form-label">Ảnh hiển thị:</label>
+                            </div>
+                            <div class="col-9 position-relative">
+                                <input type="text" id="image" class="form-input">
+                                <img src="/assets/images/camera3.png" alt="camera" class="camera1">
+                            </div>
+                            <div class="col-3">
+                                <label for="stt" class="form-label">Số thứ tự:</label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" id="stt" class="form-input">
+                            </div>
+
+                            <div class="ckeditor my-4">
+                                <div class="ckeditor-header">
+                                    <p class="text-white">Mô tả</p>
+                                </div>
+                                <div class="card-body">
+                                    <div id="editor"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <label for="#" class="form-label">Trạng thái:</label>
+                            </div>
+                            <div class="col-9">
+                                <div class="status">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" id="show" checked />
+                                        <label class="form-check-label" for="show">
+                                            Hiện
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" id="hidden" />
+                                        <label class="form-check-label" for="hidden">
+                                            Ẩn
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn form-button">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/ckeditor/ckeditor.js"></script>
+
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+
+
+</body>
+
+</html>

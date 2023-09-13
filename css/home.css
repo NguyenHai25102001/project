@@ -63,15 +63,12 @@
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: 'Saira', sans-serif;
 }
-
 
 .info-user .position,
 .user-id span {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
 }
 
 .info-user .name {
@@ -97,10 +94,9 @@
 .main-home .title,
 .mh-setting .title {
     font-size: 1rem;
-
+    font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Saira', sans-serif;
-    font-weight: bold;
+
 }
 
 .main-home .icon {
@@ -138,9 +134,8 @@
 }
 
 .list-item span {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
 }
 
 .list {
@@ -196,9 +191,8 @@ p {
 }
 
 .tkdl .tkdl-title {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     padding: 0.25rem 0;
 
 }
@@ -276,9 +270,8 @@ p {
 }
 
 .dskh-title {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     padding: 0.25rem 0;
 }
 

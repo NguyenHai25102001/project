@@ -1,0 +1,346 @@
+/* LIST PRODUCTS */
+
+img.action {
+    max-width: 30px;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif !important;
+    background-color: gray !important;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+div#root {
+    background-color: white;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.header-title {
+    position: relative;
+    background: #00426d;
+    min-height: 50px;
+}
+
+
+.header-title.violet {
+    background: #8c52ff;
+}
+
+.header-title.blue {
+    background: #2d717a;
+}
+
+.header-title.yellow {
+    background: #ffc138;
+}
+
+.header-title.red {
+    background: red;
+}
+
+.header-title h5 {
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-title i {
+    position: absolute;
+    top: 9px;
+    left: 7%;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.search {
+    display: flex;
+    background: #fdfdfd;
+    border-radius: 16px;
+    padding: 4px 0;
+    margin: 10px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search input {
+    outline: none;
+    border: none;
+}
+
+.search i {
+    color: #b489eb;
+}
+
+.filters {
+    display: flex;
+    background: #f4c01e;
+    border-radius: 17px;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 6px 0px;
+}
+
+.filters select {
+    background: transparent;
+    border: none;
+    width: 91%;
+    color: #fff;
+}
+
+.products-table table {
+    width: 1000px;
+}
+
+.products-table table th,
+.products-table table td {
+    border: 1px solid #f9d873;
+    text-align: center;
+}
+
+
+.products-table table td {
+    padding: 20px 0;
+}
+
+.products-table {
+    overflow-x: scroll;
+}
+
+.products-table::-webkit-scrollbar {
+    display: none;
+}
+
+/* END LIST PRODUCTS */
+
+
+/* LOGO BANNER SETTING */
+.add-logo_banner {
+    margin: 5px 0;
+    padding: 5px;
+    background: #00426d;
+    color: #fff;
+    text-align: center;
+}
+
+.add-logo_banner.active {
+    background: #8c52ff;
+    color: #000;
+}
+
+.col-12.add_logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.col-12.add_logo .logo {
+    width: 70%;
+}
+
+.col-12.add_logo h5 {
+    position: absolute;
+    color: #fff;
+    left: 10px;
+    top: 0;
+}
+
+.add_logo img.camera {
+    max-width: 32px;
+}
+
+/* END LOGO BANNER SETTING */
+
+
+/* PRODUCT SETTING */
+.list-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.list-action .action {
+    max-width: 20px;
+}
+
+.product_logo {
+    max-width: 50px;
+}
+
+
+/* END PRODUCT SETTING */
+
+/* INVITE FRIENDS */
+img.banner {
+    width: 100%;
+}
+
+p.label {
+    font-size: 20px;
+    color: red;
+    margin: 10px 0;
+}
+
+.invite-link {
+    background: #00406a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.invite-link p {
+    margin: 0;
+}
+
+.invite-link.web {
+    background: #ffc138;
+    color: #000;
+}
+
+img.download {
+    max-width: 150px;
+}
+
+p.alert {
+    color: #00426d;
+    padding: 0;
+    margin: 0;
+}
+
+img.camera1 {
+    position: absolute;
+    width: 24px;
+    top: 18px;
+    right: 20px;
+}
+
+label.form-label {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.form-input {
+    background: #eeeeee;
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.ckeditor-header {
+    background: #5dc7ec;
+    padding: 8px;
+}
+
+.ckeditor-header p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.ckeditor .card-body {
+    padding: 5px;
+}
+
+.ckeditor {
+    padding: 0;
+    box-shadow: -8px 6px 20px 0px #00000087;
+}
+
+button.btn.form-button {
+    background: #5bafe3;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 21px;
+    padding: 5px 20px;
+}
+
+/* END INVITE FRIENDS */
+
+/* SELECT INDUSTRIES */
+.products-table.industry table tr th {
+    font-weight: 500;
+}
+
+
+/* END SELECT INDUSTRIES */
+
+/* ORDER SUMMARY */
+table.order_summary th[scope='col'] {
+    border-bottom: 2px solid;
+}
+
+table.table.order_summary p,
+table.table.order_summary span {
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+table.table.order_summary tbody tr .order_code span.cancel {
+    color: red;
+}
+
+table.table.order_summary tbody tr .order_code span.complete {
+    color: #0deb0d;
+}
+
+table.table.order_summary tbody tr .order_code span.wait {
+    color: #f2b583;
+}
+
+.order_code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order_code p {
+    text-align: center;
+    margin: 0;
+}
+
+.pagination span.page-link {
+    padding: 0 8px;
+}
+
+/* END ORDER SUMMARY */
+
+/* LIST VISITING GUESTS */
+h5.list-title {
+    font-size: 1rem;
+    color: #4669a0;
+    margin: 2rem 0 0 0;
+}
+
+span.act {
+    background: #408558;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+/* END LIST VISITING GUESTS */
