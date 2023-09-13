@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Jura:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* LIST PRODUCTS */
 
 img.action {
@@ -59,9 +61,9 @@ div#root {
     margin: 0;
 }
 
-.header-title i {
+.header-title img {
     position: absolute;
-    top: 9px;
+    top: 12px;
     left: 7%;
     color: #fff;
     font-size: 2rem;
@@ -69,13 +71,19 @@ div#root {
 
 .search {
     display: flex;
-    background: #fdfdfd;
+    background: #fffbfb;
     border-radius: 16px;
-    padding: 4px 0;
+    padding: 4px 8px;
     margin: 10px 0;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.search input {
+    font-size: .8rem;
+    background: transparent;
+    font-family: 'Mulish', sans-serif;
 }
 
 .search input {
@@ -103,6 +111,15 @@ div#root {
     color: #fff;
 }
 
+.products-table {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+}
+
+.products-table th {
+    font-weight: 300;
+}
+
 .products-table table {
     width: 1000px;
 }
@@ -126,11 +143,17 @@ div#root {
     display: none;
 }
 
+.filters select {
+    font-size: .9rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
 /* END LIST PRODUCTS */
 
 
 /* LOGO BANNER SETTING */
 .add-logo_banner {
+    font-family: 'Jura', sans-serif;
     margin: 5px 0;
     padding: 5px;
     background: #00426d;
@@ -140,7 +163,6 @@ div#root {
 
 .add-logo_banner.active {
     background: #8c52ff;
-    color: #000;
 }
 
 .col-12.add_logo {
@@ -191,14 +213,21 @@ div#root {
 /* END PRODUCT SETTING */
 
 /* INVITE FRIENDS */
+.invite-friends p {
+    font-family: 'Jura', sans-serif;
+}
+
 img.banner {
     width: 100%;
 }
 
 p.label {
     font-size: 20px;
-    color: red;
     margin: 10px 0;
+}
+
+p.label.required {
+    color: red;
 }
 
 .invite-link {
@@ -219,6 +248,7 @@ p.label {
 
 img.download {
     max-width: 150px;
+    width: 70%;
 }
 
 p.alert {
@@ -273,11 +303,21 @@ label.form-label {
 }
 
 button.btn.form-button {
+    font-family: 'Mulish', sans-serif;
     background: #5bafe3;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 21px;
     padding: 5px 20px;
+}
+
+.id-affiliate {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+    border-radius: 10px;
 }
 
 /* END INVITE FRIENDS */
@@ -299,6 +339,10 @@ table.table.order_summary p,
 table.table.order_summary span {
     font-size: 0.6rem;
     margin: 0;
+}
+
+table.table.order_summary th {
+    font-weight: bold;
 }
 
 table.table.order_summary tbody tr .order_code span.cancel {
@@ -332,6 +376,7 @@ table.table.order_summary tbody tr .order_code span.wait {
 
 /* LIST VISITING GUESTS */
 h5.list-title {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #4669a0;
     margin: 2rem 0 0 0;
@@ -343,4 +388,5 @@ span.act {
     padding: 5px;
     border-radius: 3px;
 }
+
 /* END LIST VISITING GUESTS */
